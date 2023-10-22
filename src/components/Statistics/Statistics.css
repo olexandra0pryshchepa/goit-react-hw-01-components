@@ -1,0 +1,28 @@
+.statistics {
+  color: floralwhite;
+  background-color: rgb(39, 38, 38);
+  box-shadow: 5px 5px 5px #0000006c;
+  width: 500px;
+}
+
+.title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(216, 211, 211);
+  font-weight: 500;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 64px;
+  padding: 8px;
+  border: 1px solid rgb(125, 125, 125);
+  background-color: rgb(25, 25, 25);
+}
+.stat-list {
+  display: flex;
+  padding-bottom: 50px;
+}

@@ -1,0 +1,17 @@
+.transaction-history {
+  color: floralwhite;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: rgba(4, 4, 4, 0.485) 2px 2px 2px 0px;
+  width: 500px;
+}
+.thead {
+  color: rgb(255, 255, 255);
+  background-color: rgb(67, 67, 67);
+}
+
+.transaction-history tbody td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}

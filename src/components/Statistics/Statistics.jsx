@@ -1,4 +1,6 @@
-export const Statistics = ({title, stats}) => {
+import './Statistics.css'
+
+export const Statistics = ({ title, stats }) => {
     return (
         <section className="statistics">
              {title && <h2 className="title">{title}</h2>}

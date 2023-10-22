@@ -15,7 +15,7 @@ import { Profile } from './Profile/Profile';
 
 export const App = () => {
   return (
-    <div>
+    <div className='wrapper'>
       <Profile
         username={user.username}
         tag={user.tag}
